@@ -1,0 +1,61 @@
+.footer {
+    background-color: $grey-color;
+    min-height: 380px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        &-contacts {
+            margin-top: 135px;
+            ul {
+                display: flex;
+                flex-direction: column;
+            }
+            height: 100%;
+            img {
+                width: 50px;
+            }
+            a {
+                text-decoration: none;
+                color: #d7d7d7;
+                font-family: 'Vesper Libre';
+                font-weight: 400;
+                font-size: 24px;
+            }
+            }
+        &-line {
+            margin-top: 71px;
+            display: block;
+            width: 4px;
+            height: 244px;
+            background-color: #434242;
+        }
+        &-social {
+            margin-top: 164px;
+            ul {
+                display: flex;
+                flex-direction: row;
+                column-gap: 4px;
+                li {
+                    height: 100%;
+                    img {
+                        width: 60px;
+                    }
+                }
+            }
+        }
+    }
+    &__copyright {
+        font-family: 'Vesper Libre';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 10px;
+        display: flex;
+        justify-content: center;
+        color: #DCDCDC;
+        text-align: center;
+        margin-top: 35px;
+        strong {
+            font-size: 25px;
+        }
+    }
+}

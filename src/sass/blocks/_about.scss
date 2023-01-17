@@ -1,0 +1,50 @@
+.about {
+    min-height: 900px;
+    background-color: rgba(246, 248, 238, 0.94);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &-content {
+            margin-top: 219px;
+            margin-left: 129px;
+            &__title {
+                font-family: 'Vesper Libre';
+                font-weight: 500;
+                font-size: 70px;
+                line-height: 133px;
+                letter-spacing: 0.045em;
+                color: #000000;
+            }
+            &__subtitle {
+                font-family: 'Viaoda Libre';
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 42px;
+                color: #868080;
+                max-width: 425px;
+            }
+            &__descr {
+                font-family: 'Viaoda Libre';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 35px;
+                color: #868080;
+                margin-top: 20px;
+                max-width: 425px;
+            }
+            &__btns {
+                display: flex;
+                flex-direction: row;
+                column-gap: 50px;
+            }
+        }
+        &-img {
+            margin-top: 139px;
+            height: 100%;
+            img {
+                width: 545px;
+            }
+        }
+    }
+}

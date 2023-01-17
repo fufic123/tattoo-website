@@ -1,0 +1,59 @@
+.styles {
+    background-color: $grey-color;
+    min-height: 900px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &-content {
+            margin-top: 283px;
+            &__title {
+                font-family: 'Viaoda Libre';
+                font-weight: 400;
+                font-size: 55px;
+                line-height: 0%;
+                /* or 0px */
+                align-items: center;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+                color: #CBCBCB;
+            }
+            &__descr {
+                margin-top: 100px;
+                font-family: 'Vidaloka';
+                font-weight: 400;
+                font-size: 23px;
+                line-height: 144%;
+                /* or 36px */
+                align-items: center;
+                letter-spacing: 0.05em;
+                text-transform: capitalize;
+                color: #A8A8A8;
+                max-width: 470px;
+            }
+            // &__btn {
+            //     background: #ECECEC;
+            //     border-radius: 100px;
+            //     width: 390px;
+            //     height: 86px;
+
+            //     font-family: 'Montserrat';
+            //     font-weight: 400;
+            //     font-size: 40px;
+            //     line-height: 0%;
+            //     /* or 0px */
+            //     align-items: center;
+            //     text-align: center;
+            //     letter-spacing: 0.1em;
+            //     text-transform: uppercase;
+            //     color: $grey-color;
+            // }
+        }
+        &-img {
+            height: 100%;
+            margin-top: 159px;
+            img {
+                width: 602px;
+            }
+        }
+    }
+}

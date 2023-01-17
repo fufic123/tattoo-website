@@ -1,0 +1,43 @@
+.culture {
+    background-color: rgba(246, 248, 238, 0.94);
+    min-height: 1000px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &-content {
+            margin-top: 159px;
+            &__title {
+                font-family: 'Vesper Libre';
+                font-weight: 400;
+                font-size: 50px;
+                line-height: 95px;
+                align-items: center;
+                color: $grey-color;
+                opacity: 0.5;
+            }
+            &__descr {
+                font-family: 'Vesper Libre';
+                font-weight: 400;
+                font-size: 27px;
+                line-height: 45px;
+                color: #797272;
+                max-width: 480px;
+                margin-top: 45px;
+            }
+            &__img {
+                height: 100%;
+                margin-top: 59px;
+                img {
+                    width: 320px;
+                }
+            }
+        }
+        &-img {
+            height: 100%;
+            margin: 89px 0;
+            img {
+                width: 550px;
+            }
+        }
+    }
+}

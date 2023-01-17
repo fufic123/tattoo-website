@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Vast+Shadow&family=Vesper+Libre&family=Viaoda+Libre&family=Vidaloka&display=swap');
+@import 'vars/variables';
+
+// @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.dope {
+    position: absolute;
+    left: 100px;
+    top: 990px;
+    height: 100%;
+    img {
+        width: 230px;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/tattoo';
+@import 'blocks/styles';
+@import 'blocks/btn';
+@import 'blocks/culture';
+@import 'blocks/footer';
+@import 'blocks/designs';
+@import 'blocks/styles-list';
+@import 'blocks/about';
+@import 'blocks/contact';
+

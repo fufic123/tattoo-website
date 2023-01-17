@@ -1,0 +1,147 @@
+.contact {
+    min-height: 850px;
+    padding-top: 66px;
+    background-color: $grey-color;
+    &__cart-1 {
+        margin-left: 56px;
+        border: 3px solid #fff;
+        width: 500px;
+        height: 600px;
+        padding: 79px 127px 100px 40px;
+        display: flex;
+        flex-direction: column;
+        &__def {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 47px;
+            label {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                display: flex;
+                align-items: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+            input {
+                background: rgba(246, 248, 238, 0.94);
+                border-radius: 5px;
+                width: 333px;
+                height: 47px;
+                border: none;
+                // margin-left: 15px;
+            }
+        }
+        &__message {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            label {
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                display: flex;
+                align-items: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+            input {
+                background: rgba(246, 248, 238, 0.94);
+                border-radius: 5px;
+                width: 333px;
+                height: 198px;
+                border: none;
+                // margin-left: 15px;
+            }
+        }
+        button {
+            margin-top: 70px;
+            margin-left: 230px;
+        }
+    }
+    &__cart-2 {
+        position: absolute;
+        z-index: 1;
+        background-color: rgba($color: #2f2f2f, $alpha: 1.0);
+        width: 640px;
+        height: 590px;
+        top: 230px;
+        left: 650px;
+        // border: 2px solid #fff;
+        filter: drop-shadow(20px 20px 8px rgba(0, 0, 0, 0.6));
+        &__wrapper {
+            padding: 120px 40px 100px 140px;
+            a {
+                text-decoration: none;
+                font-family: 'Montserrat';
+                font-weight: 400;
+                font-size: 15px;
+                // line-height: 21px;
+                text-transform: capitalize;
+                img {
+                    width: 60px;
+                    height: 60px;       
+                }
+            }
+            &-inst {
+                background: linear-gradient(180deg, #0452E9 0%, rgba(79, 29, 236, 0.97) 33.33%, #D21A5E 68.23%, #DBFF00 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            &-fb {
+                color: #3E4DD4;
+            }
+            &-yt {
+                color: #C72424;
+            }
+            &-twt {
+                color: #2B89E0;
+            }
+            &-line {
+                width: 124px;
+                height: 3px;
+                background: #C4C4C4;
+                border-radius: 50px;
+            }
+            &-item {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                margin-bottom: 40px;
+            }
+        }
+    }
+    &__link {
+        a {
+            text-decoration: none;
+            color: #FFFBFB;
+            font-family: 'Vesper Libre';
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 38px;
+            text-align: center;
+            letter-spacing: 0.205em;
+            transition: 0.3s ease;
+            &:hover {
+                color: $hover-color;
+            }
+        }
+        &-first {
+            position: absolute;
+            right: -5px;
+            top: 361px;
+            transform: rotate(90deg);
+            border-bottom: 1px solid #918585;
+        }
+        &-second {
+            position: absolute;
+            right: -5px;
+            top: 684px;
+            transform: rotate(90deg);
+            border-bottom: 1px solid #918585;
+        }
+    }
+    }
